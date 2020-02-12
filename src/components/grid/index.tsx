@@ -8,7 +8,7 @@ const Grid: FC = () => {
       {Children.toArray(
         [...Array(9)].map((_, idxRow) => {
           return (
-            <Row className="grid-row-container">
+            <Row className={`Row-${idxRow}`}>
               {Children.toArray(
                 [...Array(9)].map((_, idxBlock) => {
                   return <Block colIndex={idxBlock} rowIndex={idxRow} />
