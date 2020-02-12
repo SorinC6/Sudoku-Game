@@ -8,9 +8,9 @@ export const Container = styled.div`
     cursor: pointer;
     display: flex;
     flex-grow: 1;
-    flex-shrink: 0;
+    /* flex-shrink: 0;
     flex-height: 0;
-    flex-basis: 0;
+    flex-basis: 0; */
     font-size: 20px;
     font-weight: bold;
     height: auto;
