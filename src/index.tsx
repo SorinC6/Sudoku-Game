@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 
 import { unregister } from './core'
 import { GlobalStyles, theme } from './styles'
-import { Content, Title, Card } from './components'
+import { Content, Title, Card, Grid } from './components'
 import { ThemeProvider } from 'styled-components'
 
 ReactDOM.render(
@@ -11,7 +11,9 @@ ReactDOM.render(
     <GlobalStyles />
     <Content>
       <Title>Sudoku</Title>
-      <Card>Work in Progress</Card>
+      <Card>
+        <Grid />
+      </Card>
     </Content>
   </ThemeProvider>,
   document.getElementById('root')
