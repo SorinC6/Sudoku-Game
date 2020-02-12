@@ -1,8 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { FC } from 'react'
+import logo from './logo.svg'
+import './App.css'
 
-const App = () => {
+const App: FC = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -16,11 +16,11 @@ const App = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn Sudoku
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
