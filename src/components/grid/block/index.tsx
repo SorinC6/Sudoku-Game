@@ -10,7 +10,7 @@ const Block: FC<IProps> = ({ colIndex, rowIndex }) => {
   return (
     <Container className={`${rowIndex}-${colIndex}`}>
       {/* |{rowIndex}
-      {colIndex}| */}
+      {colIndex}| */}0
     </Container>
   )
 }
