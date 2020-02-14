@@ -3,6 +3,7 @@ import identify from './index'
 
 describe('identify square function', () => {
   it('identifys the correct quare', () => {
+    
     const grid: GRID = [
       [8, 4, 2, 6, 5, 1, 3, 9, 7],
       [5, 3, 7, 2, 8, 9, 6, 4, 1],
@@ -20,6 +21,7 @@ describe('identify square function', () => {
       [5, 3, 7],
       [6, 9, 1],
     ])
+
     expect(identify({ col: 5, grid, row: 5 })).toStrictEqual([
       [8, 4, 5],
       [1, 9, 2],
