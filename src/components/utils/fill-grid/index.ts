@@ -35,7 +35,12 @@ function fillGrid(grid: GRID) {
         //is it not in grid now
         if (!isInRow({ grid, row, value })) {
           //is it not in grid column
-          if (isInCol({ col, grid, value })) {
+          if (!isInCol({ col, grid, value })) {
+            const square = [
+              [0, 0, 0],
+              [0, 0, 0],
+              [0, 0, 0],
+            ]
             //is it not in grid square?
             //if all its true
             grid[row][col] = value
